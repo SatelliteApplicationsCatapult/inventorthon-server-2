@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
+router.get('/1', function(req, res, next) {
+  res.send('respond with another resource');
+});
 
 module.exports = router;
